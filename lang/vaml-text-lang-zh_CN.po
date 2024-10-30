@@ -1,0 +1,269 @@
+# Copyright (C) 2013 WordPress
+# This file is distributed under the same license as the WordPress package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Must Use Security\n"
+"Report-Msgid-Bugs-To: http://wppolyglots.wordpress.com\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2018-01-24 04:04+0800\n"
+"Language-Team: WordPress China\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.8.12\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+
+#: views/start.php:65
+msgid "Multisite feature is not supported."
+msgstr "不支持多站点模式功能。"
+
+msgid "A WordPress version 4.5 or higher required for this software implementation."
+msgstr "本软件运行必须基于WordPress 4.5或其更高版本。"
+
+msgid "Viocee AWS Media Library"
+msgstr "维赛AWS媒体库"
+
+msgid "Viocee Once Every 10 Minutes"
+msgstr "维赛10分钟频率"
+
+msgid "None SSL posting for highly confidential information is not recommended. If your site can use SSL, click to go %s page for this action!"
+msgstr "不推荐在非SSL环境下提交高度机密信息。如果你的站点能使用SSL，点击并进入%s页面完成此项操作"
+
+msgid "You may also try the service by install %s. It will utilize AWS S3 as your media disk even if you have no AWS account."
+msgstr "如果您没有AWS账户，您可以安装 %s，它同样使用 AWS S3 提供媒体文件存储服务。"
+
+msgid "Your are going to reset your AWS account credentials. None SSL posting for highly confidential information is not recommended. If your site can use SSL, click to go %s page for this action!"
+msgstr "您在重设您的AWS账户凭证。不推荐在非SSL环境下提交高度机密信息。如果你的站点能使用SSL，点击并进入%s页面完成此项操作"
+
+msgid "Viocee AWS Media Library is in conflict with Viocee Instant Cloud Space previously installed. Only one of them ( the one previously installed ) could be used currently."
+msgstr "Viocee AWS Media Library 同先前安装的 Viocee Instant Cloud Space 发生冲突，只有其中一个（ 先前安装的 ）当前可以使用。"
+
+msgid "If you already have credentials by your AWS account, Please fill the following blanks before integrating your current site with Viocee AWS Media Library."
+msgstr "在您当前站点集成维赛AWS媒体库之前，请使用您的AWS账户的凭证填入以下空白表单栏。"
+
+msgid "It is highly recommended that your have an exclusive S3 bucket responded alone by a specific IAM user for this current WordPress site."
+msgstr "高度推荐您为当前此WordPress站点创建一个专门的S3存储桶并由一个指定的IAM用户单独负责。"
+
+msgid "Please click the right-top help tab for more details before submitting."
+msgstr "提交前，请点击右边顶部帮助按钮了解更多。"
+
+msgid "If you know the risk of None SSL posting, and you'd rather post from here, please check the box!"
+msgstr "如果你清楚非SSL提交的风险，你又非得在此页面提交，请点选方框！"
+
+msgid "The following settings can not be reset or altered if submitted successfully. You have to be careful!"
+msgstr "一旦提交成功，以下设定将不可能更改，请谨慎填写！"
+
+msgid "AWS S3"
+msgstr "AWS S3"
+
+msgid "Server Region"
+msgstr "服务器区段"
+
+msgid "Select one on which to deploy your media library on S3"
+msgstr "您的多媒体文件将会部署在所选区段的S3服务器上"
+
+msgid "S3 Bucket"
+msgstr "S3存储桶"
+
+msgid "It's your sole responsibility to create such an exclusive bucket. The plugin needs no other extra permissions"
+msgstr "创建一个专门的S3存储桶是你的唯一责任。此插件不需要其他额外权限"
+
+msgid "Prefix"
+msgstr "保存文件夹"
+
+msgid "www_abc_com, for example. Your media library files shall be put under sucn prefix ( folder )"
+msgstr "例如：www_abc_com，您的媒体库文件将会被保存于此文件夹下"
+
+msgid "Viocee AWS Media Library does't have write permissions into %s!"
+msgstr "维赛AWS媒体库没有目录 %s 的写入权限！"
+
+msgid "Viocee AWS Media Library can't create mutex folder %s!"
+msgstr "维赛AWS媒体库不能创建互斥锁文件夹 %s ！"
+
+msgid "Please check form carefully to make sure that there is no blank form field submission!"
+msgstr "请仔细检查表单，并确保没有空白栏目提交！"
+
+msgid "Please check your php.ini file and see if the XML extension is installed!"
+msgstr "请检查php.ini文件确认XML模块是否安装！"
+
+msgid "Invalid Prefix! Please use alphanumeric characters, underscores and dashes for the prefix with length between 3 to 64."
+msgstr "文件夹名不合法！请使用数字字母键，下划线或短横线命名文件夹且长度介于3到64个字符之间。"
+
+msgid "AWS Access Key ID is invalid!"
+msgstr "AWS Access Key ID 不合法！"
+
+msgid "AWS Secret Access Key does not match AWS Access Key ID!"
+msgstr "AWS Secret Access Key 与 AWS Access Key ID 不匹配！"
+
+msgid "Either region %s or bucket %s does not exist. Are you sure you are using the correct bucket in this region?"
+msgstr "服务器区段 %s 或者 存储桶 %s 不存在。您确定在这个服务器区段有此S3存储桶？"
+
+msgid "Bucket %s does not exist!"
+msgstr "存储桶 %s 不存在！"
+
+msgid "Access Denied! Please click help tab for more details about how to set a user's permissions."
+msgstr "拒绝访问！请点击帮助按钮更多了解如何设置用户权限。"
+
+msgid "Oops, Unknown Error! We will identify it as soon as possible."
+msgstr "哎呀，未知错误！我们将尽快探明究竟。"
+
+msgid "User& Permissions"
+msgstr "用户及权限"
+
+msgid "Create an Exlusive User"
+msgstr "创建一个专门用户"
+
+msgid "From your AWS account console, click \"Security, Identity & Compliance/IAM\" to enter"
+msgstr "从你的AWS账户控制台上，点击“Security, Identity & Compliance/IAM”进入"
+
+msgid "Pick \"Users\" in the left column and then click \"Add user\" button"
+msgstr "从左侧边栏选择“Users”，然后点击“Add user”按钮"
+
+msgid "Enter user name and pick \"Programmatic access\" as AWS access type, and then go next"
+msgstr "填入用户名，选择“Programmatic access”为access type，然后点击下一步"
+
+msgid "Just pick \"Attach existing policies directly\", and then go next"
+msgstr "选择“Attach existing policies directly”即可，然后点击下一步"
+
+msgid "Ignore warning \"This user has no permissions\" and click \"Create user\" button"
+msgstr "忽略“This user has no permissions”警示，然后点击”Create user“按钮"
+
+msgid "This will be your only chance to have the Access Key ID and Secret Access Key. Either copy, paste, and save them, or download \"credentials.csv\". Once you've saved the creds, close that page"
+msgstr "这是你唯一同时获得Access Key ID和Secret Access Key的机会。你可以复制粘贴保存它们，你也可以下载”credentials.csv“文件。在保存好你的用户凭证后，关闭页面"
+
+msgid "Attach Exclusive Permissions"
+msgstr "绑定专属权限"
+
+msgid "Click the user you just created from the list of users"
+msgstr "从用户列表中点选你刚刚创建的用户"
+
+msgid "Click \"Add inline policy\" under the \"Permissions\" tab"
+msgstr "在“Permissions”标签拦下点击“Add inline policy”"
+
+msgid "Pick \"Custom Policy\" and then click \"select\" button"
+msgstr "选择“Custom Policy” 然后点击“select”按钮"
+
+msgid "Fill \"Policy Name\" and copy the Permissions Code into the textarea as \"Policy Document\". Please replace the red high-lighted with your own bucket and prefix"
+msgstr "填写“Policy Name”，并把权限代码复制粘贴填入“Policy Document”的文字框。请使用你自己的存储桶以及文件夹来代替红色强调部分"
+
+msgid "Fill \"Policy Name\" and copy the Permissions Code into the textarea as \"Policy Document\""
+msgstr "填写“Policy Name”，并把权限代码复制粘贴填入“Policy Document”的文字框"
+
+msgid "Check \"Use autoformatting for policy editing\" box and click \"Apply Policy\" button"
+msgstr "勾选“Use autoformatting for policy editing”方框，然后点击“Apply Policy”按钮"
+
+msgid "Permissions Code"
+msgstr "权限代码"
+
+msgid "Rewrite Rules"
+msgstr "重定向规则"
+
+msgid "If your site runs on Nginx or use Nginx as reverse proxy, you have to manually add the follwing code to the end of location blocks of the Nginx configuration."
+msgstr "如果您的站点运行在Nginx或者以Nginx作为反向代理，您必须手动将下面代码添加到Nginx配置文件location区块的最后。"
+
+msgid "Current S3 settings ( no resetting )"
+msgstr "当前S3设置（不可重设）"
+
+msgid "Default settings"
+msgstr "基本设置"
+
+msgid "Viocee AWS Media Library can't be reconfigured for AWS S3 settings. If you want to know the current configuration, Please click the help tab."
+msgstr "维赛AWS媒体库针对AWS S3的配置不可重设。如果您要了解当前配置，请点击帮助按钮。"
+
+msgid "Current configuration for AWS S3: Server Region ( %s ) , S3 Bucket ( %s ) , Prefix ( %s ). They can't be reconfigured. The following permissions can be applied to a specified IAM user for current configuration."
+msgstr "当前针对AWS S3的配置： 服务器区段（ %s ），S3存储桶（ %s ），保存文件夹（ %s ）。不可重设。以下权限代码适用于针对当前配置指定的IAM用户。"
+
+msgid "Please replace the red high-lighted with your own bucket and prefix."
+msgstr "请把红色强调部分替换为您自己的S3存储桶及保存文件夹。"
+
+msgid "Keep a copy of media file on server when uploaded"
+msgstr "上传完成在服务器上保留一份副本"
+
+msgid "It is not recommended unless your server is large enough to hold all your media files."
+msgstr "并不建议如此，除非你的服务器容量足够容纳你所有的媒体文件。"
+
+msgid "Upload all old media files automatically"
+msgstr "自动上传所有既往媒体文件"
+
+msgid "All old meida files shall be uploaded to Viocee AWS Media Library automatically without notice."
+msgstr "所有既往媒体文件将会被自动上传至维赛媒体云而勿需另行通知。"
+
+msgid "Very important"
+msgstr "非常重要"
+
+msgid "If you do as instructed before deleting Viocee AWS Media Library, the recovery of your media files to your own disk space will be 100% safe, or otherwise, you are most likely encounter media file loss!"
+msgstr "若要删除维赛媒体云，请务必遵循如下指示，媒体文件恢复将会100%安全，否则，你有极大可能遇到数据丢失！"
+
+msgid "By submitting the right result of calculation as the safe token, Viocee AWS Media Library will recover your media files to the own disk space of your WordPress. The storage of your media files might be large enough for the recovery of them takes some time. Your current operation won't be interfered as the recovery run silently. Viocee AWS Media Library can be safely deleted when you are notified of a complete recovery of your media files."
+msgstr "请把以下正确计算结果作为删除令牌填入提交后，维赛媒体云将会把你的媒体文件恢复至你WordPress原有存储空间。由于存储量的大小，恢复将会花费一定的时间，恢复过程悄然进行，不会影响你当前操作。当你被提示媒体文件全部恢复后，维赛媒体云就可以安全地删除。"
+
+msgid "Recovery_token"
+msgstr "恢复令牌"
+
+msgid "Calculate %s and fill (or ignore it if you will continue to use this plugnin)"
+msgstr "计算 %s 并填入（若要继续使用此插件，忽略即可）"
+
+msgid "Reset credentials"
+msgstr "重设凭证"
+
+msgid "Update credentials"
+msgstr "更新凭证"
+
+msgid "Your AWS credentials can be reset, but as for your AWS S3 settings, such as bucket, bucket_prefix, they are fixed unless you reinstall this plugin."
+msgstr "您AWS账户的凭证可以重设，至于AWS S3 的设置，比如存储桶，以及存储桶前缀等都不可更新，除非你重新安装此插件。"
+
+msgid "Network failure. Please try again later!"
+msgstr "网络故障，请稍后重试！"
+
+msgid "Currently %s media file(s) in recovery process from AWS S3 to your own disk space. Do not delete Viocee AWS Media Library until all done!"
+msgstr "当前%s个媒体文件正在从 AWS S3 恢复至您的存储空间。恢复完成前，请勿删除维赛媒体云！"
+
+msgid "The recovery of your media files from AWS to your own disk is complete! Viocee AWS Media Library can be uninstalled safely now."
+msgstr "所有媒体文件已全部从AWS恢复至您的存储空间！现在您可以安全的卸载维赛媒体云。"
+
+msgid "No more annoying"
+msgstr "不再打搅"
+
+msgid "Global notice"
+msgstr "全局通知"
+
+msgid "Stop recovery"
+msgstr "停止恢复"
+
+msgid "Error unknown: please check if WordPress REST API is available!"
+msgstr "未知错误：请检查WordPress REST API是否能够应答！"
+
+msgid "Your current WordPress site has been integrated successfully with Viocee AWS Media Library. Please complete the following settings to continue!"
+msgstr "您当前WordPress站点已经成功集成维赛媒体云。请完成以下设置继续！"
+
+msgid "Your AWS account credentials have been updated successfully!"
+msgstr "您的AWS账户凭证重新设置成功！"
+
+msgid "Viocee AWS Media Library have been updated successfully for its settings!"
+msgstr "维赛AWS媒体库的设置已经成功更新！"
+
+msgid "There might be some network problems. Try again Later!"
+msgstr "当前或有网络故障, 稍后再试！"
+
+msgid "Viocee Upload"
+msgstr "维赛上传"
+
+msgid "Viocee Batch"
+msgstr "维赛批量添加"
+
+msgid "Access Denied"
+msgstr "不可访问"
+
+msgid "Failed security nonce check!"
+msgstr "nonce安全检查未通过！"
+
+msgid "Get Premium"
+msgstr "高级版本"
+
+msgid "Viocee AWS Media Library free version does not support uploading of large file. Please get and upgrade this plugin by clicking the following button!"
+msgstr "维赛AWS媒体库免费版不支持大文件上传，请点击下面按钮，获取并升级您的插件！"
+
+msgid "Viocee AWS Media Library free version does not support adding of your media library files in batch. Please get and upgrade this plugin by clicking the following button!"
+msgstr "维赛AWS媒体库免费版不支持批量添加媒体库文件，请点击下面按钮，获取并升级您的插件！"

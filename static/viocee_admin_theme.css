@@ -1,0 +1,52 @@
+.viocee-hide {
+    display: none;
+}
+
+.viocee-syntax-highlight {
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    border:1px solid #cecece;
+    background-color:#eeeeee;
+    padding: 24px 48px 24px 24px;
+    font-size:1.1em;
+    display: block;
+}
+
+.viocee-syntax-highlight span {
+    color: red;
+}
+
+ul.viocee-help-list{
+    margin: 1.5em;
+}
+
+ul.viocee-help-list>li{
+    margin-left: 1em;
+    list-style: disc outside none!important;
+}
+
+.viocee-help-heading{
+    font-weight: bold;
+    color: #0c5f99
+}
+
+.viocee-notice {
+    background: #fff;
+    border-left: 4px solid #fff;
+    -webkit-box-shadow: 0 1px 1px 0 rgba( 0, 0, 0, 0.1 );
+    box-shadow: 0 1px 1px 0 rgba( 0, 0, 0, 0.1 );
+    margin: 5px 0px 2px;
+    padding: 1px 12px;
+}
+
+.viocee-warning {
+    border-left-color: #ffb900;
+}
+
+.viocee-success {
+    border-left-color: #46b450;
+}
+
+.viocee-notice p {
+    margin: 0.5em 0;
+    padding: 2px;
+}
